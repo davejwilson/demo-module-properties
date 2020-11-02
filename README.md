@@ -8,3 +8,6 @@ An example of this is delaying a `deploy`, until a stub / proxy has been added t
 ## Example Use Case
 This example skips the `install` goal in module 1, and uses the `install-file` goal to do it in module 2.
 To do this the properties are saved for later use.
+
+## FYI
+Some code has been added to compensate for the groovy plugin expression parsing breaking with Windows backslashes `\`
